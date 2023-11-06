@@ -1,0 +1,70 @@
+* {
+    margin: auto;
+}
+
+body {
+    background: linear-gradient(90deg, #222222, #0c0c0c);
+} 
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(211, 211, 211); 
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #e12525, #ff3502, #ff0000, #922900);
+    box-shadow: 0 4px 15px 0 rgba(255, 72, 0, 0.75);
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, rgb(48, 204, 0), #0f7e00, #22a301, #189200);
+    box-shadow: 0 4px 15px 0 rgba(43, 255, 0, 0.75);
+}
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #0a2bc2, #0011ff, #000e8d, #0011ff);
+    box-shadow: 0 4px 15px 0 rgba(11, 1, 153, 0.75);
+}
+
+.btn-hover.btn_off
+{
+    /* background-image: linear-gradient(to right, #1d1d1d, #1d1d1d, #1d1d1d, #292929); */
+    filter: saturate(0%);
+    box-shadow:none;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP MQTT Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="centered-content">
+        <h1>ESP Demo</h1>
+    </div>
+
+    <div class="buttons" id = "elements">
+        <button class="btn-hover color-1" id="led1_btn">LED 1</button>
+        <button class="btn-hover color-2" id="led2_btn">LED 2</button>
+        <button class="btn-hover color-3" id="led3">LED 3</button>
+    </div>
+
+
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+<script src="script.js"></script>
+
+<script>
+  // An mqtt variable will be initialized globally
+  console.log(mqtt)
+</script>
+</body>
+
+</html>
